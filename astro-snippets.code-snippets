@@ -1,0 +1,49 @@
+{
+	// =======================================================
+	"template for astro component": {
+		"prefix": "astro-comp-starter",
+		"body": [
+			"---",
+			"",
+			"---",
+			"",
+			"<div class=\"container\">",
+			"  <div class=\"inner-container\">",
+			"    <div class=\"content\">",
+			"      <div class=\"content-block\">",
+			"      ",
+			"      </div>",
+			"    </div>",
+			"  </div>",
+			"</div>",
+			"",
+			"<style>",
+			"</style>"
+		],
+		"description": "template for astro component"
+	},
+	//=======================================================
+	"access json objects": {
+		"prefix": "astro-getJson",
+		"body": [
+			"{data.bullets.map((bullet: any) => <code>{bullet}</code>)}"
+		],
+		"description": "access json objects"
+	},
+	// =======================================================
+	"access if statement": {
+		"prefix": "astro-if",
+		"body": [
+			"{data.content.title && <h3>{data.content.title}</h3>}"
+		],
+		"description": "access if statement"
+	},
+	// =======================================================
+	"store json in a variable": {
+		"prefix": "astro-storeJson",
+		"body": [
+			"const tid = fid.map((data: any) => data.ti);"
+		],
+		"description": "store json in a variable"
+	}
+}

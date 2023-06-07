@@ -1,0 +1,146 @@
+{
+	//========================================================
+	"basic template for vue component": {
+		"prefix": "vue-comp-raw",
+		"body": [
+			"<script setup>",
+			"</script>",
+			"",
+			"<template>",
+			"</template>",
+			"",
+			"<style scoped>",
+			"</style>"
+		],
+		"description": "basic template for vue component"
+	},
+	//========================================================
+	"basic template for vue component with props": {
+		"prefix": "vue-comp-raw-props",
+		"body": [
+			"<script setup>",
+			"import { defineProps } from 'vue'",
+			"",
+			"const props = defineProps({",
+			"  prop1: {",
+			"    type: String,",
+			"    required: true",
+			"  },",
+			"  prop2: {",
+			"    type: Number,",
+			"    default: 0",
+			"  }",
+			"})",
+			"</script>",
+			"",
+			"<template>",
+			"</template>",
+			"",
+			"<style scoped>",
+			"</style>"
+		],
+		"description": "basic template for vue component with props"
+	},
+	//========================================================
+	"basic template for vue component with props and emits": {
+		"prefix": "vue-comp-raw-props-emits",
+		"body": [
+			"<script setup>",
+			"import { defineProps, defineEmits } from 'vue'",
+			"",
+			"const props = defineProps({",
+			"  prop1: {",
+			"    type: String,",
+			"    required: true",
+			"  },",
+			"  prop2: {",
+			"    type: Number,",
+			"    default: 0",
+			"  }",
+			"})",
+			"",
+			"const emits = defineEmits([",
+			"  'event1',",
+			"  'event2'",
+			"])",
+			"</script>",
+			"",
+			"<template>",
+			"</template>",
+			"",
+			"<style scoped>",
+			"</style>"
+		],
+		"description": "basic template for vue component with props and emits"
+	},
+	//========================================================
+	"conditional rendering": {
+		"prefix": "vue-if",
+		"body": [
+			"<div id=\"app\">",
+			"  <p v-if=\"showMessage\">This is visible</p>",
+			"  <p v-else>This is hidden</p>",
+			"</div>"
+		],
+		"description": "conditional rendering"
+	},
+	//========================================================
+	"conditional rendering with v-else-if": {
+		"prefix": "vue-if-else-if",
+		"body": [
+			"<div id=\"app\">",
+			"  <p v-if=\"showMessage\">This is visible</p>",
+			"  <p v-else-if=\"showMessage2\">This is also visible</p>",
+			"  <p v-else>This is hidden</p>",
+			"</div>"
+		],
+		"description": "conditional rendering with v-else-if"
+	},
+	//========================================================
+	"conditional rendering with v-show": {
+		"prefix": "vue-show",
+		"body": [
+			"<div id=\"app\">",
+			"  <p v-show=\"showMessage\">This is visible</p>",
+			"  <p v-show=\"showMessage2\">This is also visible</p>",
+			"  <p v-show=\"showMessage3\">This is also visible</p>",
+			"</div>"
+		],
+		"description": "conditional rendering with v-show"
+	},
+	//========================================================
+	"for loop in vue": {
+		"prefix": "vue-for",
+		"body": [
+			"<li v-for=\"(item, index) in items\" key=\"index\">",
+			" {item}",
+			"</li>"
+		],
+		"description": "for loop in vue"
+	},
+	//========================================================
+	"vue component starter template": {
+		"prefix": "vue-comp-starter",
+		"body": [
+			"<script setup>",
+			"</script>",
+			"",
+			"<template>",
+			"<div class=\"container\">",
+			"  <div class=\"inner-container\">",
+			"    <div class=\"content\">",
+			"      <div class=\"content-block\">",
+			"      ",
+			"      </div>",
+			"    </div>",
+			"  </div>",
+			"</div>",
+			"</template>",
+			"",
+			"<style scoped>",
+			"</style>"
+		],
+		"description": "vue component starter template"
+	},
+	//========================================================
+}

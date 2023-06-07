@@ -1,0 +1,18 @@
+{
+	//======================================================
+	"basic slice structure": {
+		"prefix": "html-slice-starter",
+		"body": [
+			"<div class=\"container\">",
+			"  <div class=\"inner-container\">",
+			"    <div class=\"content\">",
+			"      <div class=\"content-block\">",
+			"      ",
+			"      </div>",
+			"    </div>",
+			"  </div>",
+			"</div>"
+		],
+		"description": "basic slice structure"
+	}
+}
