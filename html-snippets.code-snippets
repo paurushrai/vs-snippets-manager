@@ -46,5 +46,22 @@
 			"<meta name=\"Classification\" content=\"Business\" />"
 		],
 		"description": "general seo starter"
+	},
+	// TAKEN FROM PROJECT - make edits, remove site specific content and make it generic
+	"graph seo starter": {
+		"prefix": "seo-graph-starter",
+		"body": [
+			"<meta property=\"og:title\" content=\"GTM Advisors\" />",
+			"<meta property=\"og:type\" content=\"website\" />",
+			"<meta property=\"og:image\" content=\"/organe_car.png\" />",
+			"<meta property=\"og:image:alt\" content=\"GTM Advisors Assemble a Strategy\" />",
+			"<meta",
+			"  property=\"og:description\"",
+			"  content=\"Go To Market Advisors is a collective of highly seasoned revenue, sales, customer service, and leadership consultants.\"",
+			"/>",
+			"<meta property=\"og:site_name\" content=\"GTM Advisors\" />",
+			""
+		],
+		"description": "graph seo starter"
 	}
 }
