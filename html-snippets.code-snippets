@@ -25,5 +25,26 @@
 			"<meta charset=\"UTF-8\" />"
 		],
 		"description": "basic seo starter"
+	},
+	// TAKEN FROM PROJECT - make edits, remove site specific content and make it generic
+	"general seo starter": {
+		"prefix": "seo-general-starter",
+		"body": [
+			"<meta name=\"theme-color\" content=\"#000000\" />",
+			"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />",
+			"<meta",
+			"name=\"description\"",
+			"content=\"Go To Market Advisors is a collective of highly seasoned revenue, sales, customer service, and leadership consultants.\"/>",
+			"<meta",
+			"name=\"keywords\"",
+			"content=\"GTM, gotomarket, product, product launch, gtmstrategy, gtm strategy, consulting\"/>",
+			"<meta name=\"author\" content=\"Go To Market Advisors\" />",
+			"<meta",
+			"name=\"subject\"",
+			"content=\"Does Your Go-To-Market Strategy Require Some Assembly?\"/>",
+			"<meta name=\"copyright\" content=\"Go To Market Advisors\" />",
+			"<meta name=\"Classification\" content=\"Business\" />"
+		],
+		"description": "general seo starter"
 	}
 }
