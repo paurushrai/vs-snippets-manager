@@ -14,5 +14,16 @@
 			"</div>"
 		],
 		"description": "basic slice structure"
+	},
+	// TAKEN FROM PROJECT
+	"basic seo starter": {
+		"prefix": "seo-basic-starter",
+		"body": [
+			"<title>WEBSITE NAME</title>",
+			"<link rel=\"icon\" type=\"image/x-icon\" href=\"IMAGE LINK\" />",
+			"<link rel=\"canonical\" href=\"WEBSITE LINK\" />",
+			"<meta charset=\"UTF-8\" />"
+		],
+		"description": "basic seo starter"
 	}
 }
