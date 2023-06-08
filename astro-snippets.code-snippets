@@ -26,24 +26,47 @@
 	"access json objects": {
 		"prefix": "astro-getJson",
 		"body": [
-			"{data.bullets.map((bullet: any) => <code>{bullet}</code>)}"
+			"{${1:data.bullets}.map((bullet: any) => <${2:code}>{${3:bullet}}</${2:code}>)}"
 		],
 		"description": "access json objects"
 	},
 	// =======================================================
-	"access if statement": {
+	"if statement": {
 		"prefix": "astro-if",
 		"body": [
-			"{data.content.title && <h3>{data.content.title}</h3>}"
+			"{${1:data.content.title} && <${2:h3}>{${1:data.content.title}}</${2:h3}>}"
 		],
-		"description": "access if statement"
+		"description": "if statement"
 	},
 	// =======================================================
 	"store json in a variable": {
 		"prefix": "astro-storeJson",
 		"body": [
-			"const tid = fid.map((data: any) => data.ti);"
+			"const ${1:tid} = ${2:fid}.map((data: any) => :data.${3:ti});"
 		],
 		"description": "store json in a variable"
+	},
+	// ========================================================
+	// FROM PROJECT
+	"astro files and fonts include": {
+		"prefix": "astro-include-starter",
+		"body": [
+			"---",
+			"import '${1:FILE ADDRESS}';",
+			"",
+			"---",
+			"",
+			"  <!-- google fonts -->",
+			"  ${2:<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />",
+			"  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />",
+			"  <link",
+			"    href=\"https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700;800;900&display=swap\"",
+			"    rel=\"stylesheet\" />}",
+			"  <!-- Google tag (gtag.js) -->",
+			"  ${3:<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-6SSWGRHDPD\"></script>}",
+			"  <!-- font awesome -->",
+			"  ${4:<script src=\"https://kit.fontawesome.com/707240b3b6.js\" crossorigin=\"anonymous\"></script>}",
+		],
+		"description": "astro files and fonts include"
 	}
 }
