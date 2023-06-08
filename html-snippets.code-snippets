@@ -20,7 +20,7 @@
 		"prefix": "seo-basic-starter",
 		"body": [
 			"<title>WEBSITE NAME</title>",
-			"<link rel=\"icon\" type=\"image/x-icon\" href=\"IMAGE LINK\" />",
+			"<link rel=\"icon\" type=\"image/x-icon\" href=\"LOGO LINK\" />",
 			"<link rel=\"canonical\" href=\"WEBSITE LINK\" />",
 			"<meta charset=\"UTF-8\" />"
 		],
@@ -34,15 +34,15 @@
 			"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />",
 			"<meta",
 			"name=\"description\"",
-			"content=\"Go To Market Advisors is a collective of highly seasoned revenue, sales, customer service, and leadership consultants.\"/>",
+			"content=\"BRAND DESCRIPTION\"/>",
 			"<meta",
 			"name=\"keywords\"",
-			"content=\"GTM, gotomarket, product, product launch, gtmstrategy, gtm strategy, consulting\"/>",
-			"<meta name=\"author\" content=\"Go To Market Advisors\" />",
+			"content=\"KEYWORDS\"/>",
+			"<meta name=\"author\" content=\"BRAND NAME\" />",
 			"<meta",
 			"name=\"subject\"",
-			"content=\"Does Your Go-To-Market Strategy Require Some Assembly?\"/>",
-			"<meta name=\"copyright\" content=\"Go To Market Advisors\" />",
+			"content=\"BRAND SUBJECT\"/>",
+			"<meta name=\"copyright\" content=\"BRAND NAME\" />",
 			"<meta name=\"Classification\" content=\"Business\" />"
 		],
 		"description": "general seo starter"
