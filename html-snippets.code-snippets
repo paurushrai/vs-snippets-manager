@@ -51,15 +51,15 @@
 	"graph seo starter": {
 		"prefix": "seo-graph-starter",
 		"body": [
-			"<meta property=\"og:title\" content=\"GTM Advisors\" />",
+			"<meta property=\"og:title\" content=\"${1:BRAND NAME}\" />",
 			"<meta property=\"og:type\" content=\"website\" />",
-			"<meta property=\"og:image\" content=\"/organe_car.png\" />",
-			"<meta property=\"og:image:alt\" content=\"GTM Advisors Assemble a Strategy\" />",
+			"<meta property=\"og:image\" content=\"${2:IMAGE LINK}\" />",
+			"<meta property=\"og:image:alt\" content=\"${3:IMAGE ALT TEXT}\" />",
 			"<meta",
 			"  property=\"og:description\"",
-			"  content=\"Go To Market Advisors is a collective of highly seasoned revenue, sales, customer service, and leadership consultants.\"",
+			"  content=\"${4:BRAND DESCRIPTION}\"",
 			"/>",
-			"<meta property=\"og:site_name\" content=\"GTM Advisors\" />",
+			"<meta property=\"og:site_name\" content=\"${1:BRAND NAME\" />",
 			""
 		],
 		"description": "graph seo starter"
