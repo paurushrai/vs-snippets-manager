@@ -19,9 +19,9 @@
 	"basic seo starter": {
 		"prefix": "seo-basic-starter",
 		"body": [
-			"<title>WEBSITE NAME</title>",
-			"<link rel=\"icon\" type=\"image/x-icon\" href=\"LOGO LINK\" />",
-			"<link rel=\"canonical\" href=\"WEBSITE LINK\" />",
+			"<title>${1:WEBSITE NAME}</title>",
+			"<link rel=\"icon\" type=\"image/x-icon\" href=\"${2:LOGO LINK}\" />",
+			"<link rel=\"canonical\" href=\"${3:WEBSITE LINK}\" />",
 			"<meta charset=\"UTF-8\" />"
 		],
 		"description": "basic seo starter"
@@ -34,15 +34,15 @@
 			"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />",
 			"<meta",
 			"name=\"description\"",
-			"content=\"BRAND DESCRIPTION\"/>",
+			"content=\"${1:BRAND DESCRIPTION}\"/>",
 			"<meta",
 			"name=\"keywords\"",
-			"content=\"KEYWORDS\"/>",
-			"<meta name=\"author\" content=\"BRAND NAME\" />",
+			"content=\"${2:KEYWORDS}\"/>",
+			"<meta name=\"author\" content=\"${3:BRAND NAME}\" />",
 			"<meta",
 			"name=\"subject\"",
-			"content=\"BRAND SUBJECT\"/>",
-			"<meta name=\"copyright\" content=\"BRAND NAME\" />",
+			"content=\"${4:BRAND SUBJECT}\"/>",
+			"<meta name=\"copyright\" content=\"${3:BRAND NAME}\" />",
 			"<meta name=\"Classification\" content=\"Business\" />"
 		],
 		"description": "general seo starter"
