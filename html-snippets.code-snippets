@@ -43,7 +43,7 @@
 			"name=\"subject\"",
 			"content=\"${4:BRAND SUBJECT}\"/>",
 			"<meta name=\"copyright\" content=\"${3:BRAND NAME}\" />",
-			"<meta name=\"Classification\" content=\"Business\" />"
+			"<meta name=\"Classification\" content=\"${5:COMPANY TYPE}\" />"
 		],
 		"description": "general seo starter"
 	},
