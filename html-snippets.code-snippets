@@ -137,5 +137,29 @@
 			"<script type=\"text/javascript\" src=\"${1:jquery-3.3.1.js}\"></script>"
 		],
 		"description": "Link JS File"
+	},
+	"Ordered List": {
+		"prefix": "html-ol-list",
+		"body": [
+			"<ol>",
+			"  <li>${1:Coffee}</li>",
+			"  <li>${2:Tea}</li>",
+			"  <li>${3:Milk}</li>",
+			"</ol>",
+			""
+		],
+		"description": "Ordered List"
+	},
+	"Unordered List": {
+		"prefix": "html-ul-list",
+		"body": [
+			"<ul>",
+			"  <li>${1:Coffee}</li>",
+			"  <li>${2:Tea}</li>",
+			"  <li>${3:Milk}</li>",
+			"</ul>",
+			""
+		],
+		"description": "Unordered List"
 	}
 }
