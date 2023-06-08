@@ -161,5 +161,19 @@
 			""
 		],
 		"description": "Unordered List"
+	},
+	"Navigation Bar": {
+		"prefix": "html-navbar",
+		"body": [
+			"<nav>",
+			"  <ul class=\"navbar\">",
+			"    <li><a href=\"${2:#home}\">${1:Home}</a></li>",
+			"    <li><a href=\"${4:#about}\">${3:About}</a></li>",
+			"    <li><a href=\"${6:#services}\">${5:Services}</a></li>",
+			"    <li><a href=\"${8:#contact}\">${7:Contact}</a></li>",
+			"  </ul>",
+			"</nav>"
+		],
+		"description": "Navigation Bar"
 	}
 }
