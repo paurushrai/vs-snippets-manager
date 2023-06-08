@@ -59,7 +59,7 @@
 			"  property=\"og:description\"",
 			"  content=\"${4:BRAND DESCRIPTION}\"",
 			"/>",
-			"<meta property=\"og:site_name\" content=\"${1:BRAND NAME\" />",
+			"<meta property=\"og:site_name\" content=\"${5:WEBSITE NAME\" />",
 			""
 		],
 		"description": "graph seo starter"
@@ -123,5 +123,19 @@
 			""
 		],
 		"description": "SEO Twitter Card"
+	},
+	"Link CSS File": {
+		"prefix": "html-link-css",
+		"body": [
+			"<link rel=\"stylesheet\" type=\"text/css\" href=\"${1:mystyle.css}\">"
+		],
+		"description": "Link CSS File"
+	},
+	"Link JS File": {
+		"prefix": "html-link-js",
+		"body": [
+			"<script type=\"text/javascript\" src=\"${1:jquery-3.3.1.js}\"></script>"
+		],
+		"description": "Link JS File"
 	}
 }
