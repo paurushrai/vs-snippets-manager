@@ -63,5 +63,29 @@
 			""
 		],
 		"description": "graph seo starter"
+	},
+	"html files and fonts include": {
+		"prefix": "html-include-starter",
+		"body": [
+			"  <!-- CSS files -->",
+			"  <link rel=\"stylesheet\" type=\"text/css\" href=\"${1:CSS FILE ADDRESS}\">",
+			"",
+			"  <!-- script files -->",
+			"  <script src=\"$2:{JS FILE ADDRESS}\"></script>",
+			"",
+			"  <!-- google fonts -->",
+			"  ${3:<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />",
+			"  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />",
+			"  <link",
+			"    href=\"https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700;800;900&display=swap\"",
+			"    rel=\"stylesheet\" />}",
+			"",
+			"  <!-- Google tag (gtag.js) -->",
+			"  ${4:<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-6SSWGRHDPD\"></script>}",
+			"",
+			"  <!-- font awesome -->",
+			"  ${5:<script src=\"https://kit.fontawesome.com/707240b3b6.js\" crossorigin=\"anonymous\"></script>}"
+		],
+		"description": "html files and fonts include"
 	}
 }
