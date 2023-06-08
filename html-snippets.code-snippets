@@ -175,5 +175,14 @@
 			"</nav>"
 		],
 		"description": "Navigation Bar"
+	},
+	"button HTML": {
+		"prefix": "html-button",
+		"body": [
+			"<span class=\"${1:btn-container}\">",
+			"  <a class=\"${2:button light-btn}\" href=\"${3:/what-we-think/}\">${4:Read More}</a>",
+			"</span>"
+		],
+		"description": "button HTML"
 	}
 }

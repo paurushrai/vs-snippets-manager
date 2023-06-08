@@ -1,4 +1,5 @@
 {
+	// TAKEN FROM - https://github.com/necolas/normalize.css/blob/master/normalize.css
 	"Normalize CSS": {
 		"prefix": "css-normalize",
 		"body": [
