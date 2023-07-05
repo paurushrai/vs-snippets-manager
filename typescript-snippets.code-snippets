@@ -8,5 +8,15 @@
 			"import ${1:Hero} from \"${2:@slice/Hero.astro}\";",
 		],
 		"description": "Import Statement"
+	},
+	// ===============================================
+	// [ 2 ] ---- Console.log ---- 
+	// ===============================================
+	"console.log()": {
+		"prefix": "ts-console",
+		"body": [
+			"console.log(\"${1:Hello world!}\");"
+		],
+		"description": "console.log()"
 	}
 }
