@@ -1,5 +1,6 @@
 {
-	// =======================================================
+	// ---- ASTRO Component Starter ----
+	
 	"template for astro component": {
 		"prefix": "astro-comp-starter",
 		"body": [
