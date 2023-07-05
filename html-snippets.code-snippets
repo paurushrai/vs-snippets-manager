@@ -216,5 +216,27 @@
 			"</span>"
 		],
 		"description": "button HTML"
+	},
+	// =========================================
+	// ---- [ 14 ] Image tag with container ----
+	// =========================================
+	"image tag with container": {
+		"prefix": "html-image-container",
+		"body": [
+			"<span class=\"${1:image-container}\">",
+			"  <img src=\"${2:example}\" alt=\"${3:example}\" width=\"${4:example}\" height=\"${5:example}\" title=\"${6:example}\" class=\"${7:example}\">",
+			"</span>"
+		],
+		"description": "image with container"
+	},
+	// ==========================================
+	// ---- [ 15 ] Image tag with attributes ----
+	// ==========================================
+	"image tag with attributes": {
+		"prefix": "html-image",
+		"body": [
+			"<img src=\"${1:example}\" alt=\"${2:example}\" width=\"${3:example}\" height=\"${4:example}\" title=\"${5:example}\" class=\"${6:example}\""
+		],
+		"description": "image tag with attributes"
 	}
 }
