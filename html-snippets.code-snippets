@@ -1,5 +1,7 @@
 {
-	//======================================================
+	// ===================================================
+	// ---- [ 1 ] Slice Structure ---- *TAKEN FROM PROJECT
+	// ===================================================
 	"basic slice structure": {
 		"prefix": "html-slice-starter",
 		"body": [
@@ -15,7 +17,9 @@
 		],
 		"description": "basic slice structure"
 	},
-	// TAKEN FROM PROJECT
+	// =====================================================
+	// ---- [ 2 ] Basic SEO Starter ---- *TAKEN FROM PROJECT
+	// =====================================================
 	"basic seo starter": {
 		"prefix": "seo-basic-starter",
 		"body": [
@@ -26,7 +30,9 @@
 		],
 		"description": "basic seo starter"
 	},
-	// TAKEN FROM PROJECT - make edits, remove site specific content and make it generic
+	// =============================================================================================================
+	// ---- [ 3 ] Genersl SEO ---- *TAKEN FROM PROJECT - did edits, removed site specific content to make it generic
+	// =============================================================================================================
 	"general seo starter": {
 		"prefix": "seo-general-starter",
 		"body": [
@@ -47,7 +53,9 @@
 		],
 		"description": "general seo starter"
 	},
-	// TAKEN FROM PROJECT - make edits, remove site specific content and make it generic
+	// ===========================================================================================================
+	// ---- [ 4 ] SEO Graph ---- *TAKEN FROM PROJECT - did edits, removed site specific content to make it generic
+	// ===========================================================================================================
 	"graph seo starter": {
 		"prefix": "seo-graph-starter",
 		"body": [
@@ -64,7 +72,9 @@
 		],
 		"description": "graph seo starter"
 	},
-	// TAKEN FROM PROJECT
+	// ====================================================
+	// ---- [ 5 ] Resource Include ---- *TAKEN FROM PROJECT
+	// ====================================================
 	"html files and fonts include": {
 		"prefix": "html-include-starter",
 		"body": [
@@ -89,8 +99,10 @@
 		],
 		"description": "html files and fonts include"
 	},
-	// TAKED FROM PROJECT
-	"Instruction Sets": {
+	// ========================================================
+	// ---- [ 6 ] SEO Instruction Sets ---- *TAKEN FROM PROJECT
+	// ========================================================
+	"SEO Instruction Sets": {
 		"prefix": "seo-instructions-set-starter",
 		"body": [
 			"<meta name=\"robots\" content=\"index,follow\" />",
@@ -102,7 +114,9 @@
 		],
 		"description": "Instruction Sets"
 	},
-	// TAKEN FROM PROJECT 
+	// ====================================================
+	// ---- [ 7 ] SEO Twitter Card ---- *TAKEN FROM PROJECT
+	// ====================================================
 	"SEO Twitter Card": {
 		"prefix": "seo-twitter-card-starter",
 		"body": [
@@ -124,6 +138,9 @@
 		],
 		"description": "SEO Twitter Card"
 	},
+	// =================================================
+	// ---- [ 8 ] Link CSS File ---- *TAKEN FROM PROJECT
+	// =================================================
 	"Link CSS File": {
 		"prefix": "html-link-css",
 		"body": [
@@ -131,6 +148,9 @@
 		],
 		"description": "Link CSS File"
 	},
+	// ================================================
+	// ---- [ 9 ] Link JS File ---- *TAKEN FROM PROJECT
+	// ================================================
 	"Link JS File": {
 		"prefix": "html-link-js",
 		"body": [
@@ -138,6 +158,9 @@
 		],
 		"description": "Link JS File"
 	},
+	// =================================================
+	// ---- [ 10 ] Ordered List ---- *TAKEN FROM PROJECT
+	// =================================================
 	"Ordered List": {
 		"prefix": "html-ol-list",
 		"body": [
@@ -150,6 +173,9 @@
 		],
 		"description": "Ordered List"
 	},
+	// ===================================================
+	// ---- [ 11 ] Unordered List ---- *TAKEN FROM PROJECT
+	// ===================================================
 	"Unordered List": {
 		"prefix": "html-ul-list",
 		"body": [
@@ -162,6 +188,9 @@
 		],
 		"description": "Unordered List"
 	},
+	// ===================================================
+	// ---- [ 12 ] Navigation Bar ---- *TAKEN FROM PROJECT
+	// ===================================================
 	"Navigation Bar": {
 		"prefix": "html-navbar",
 		"body": [
@@ -176,6 +205,9 @@
 		],
 		"description": "Navigation Bar"
 	},
+	// ===========================================
+	// ---- [ 13 ] Button ---- *TAKEN FROM PROJECT
+	// ===========================================
 	"button HTML": {
 		"prefix": "html-button",
 		"body": [
