@@ -1,5 +1,7 @@
 {
-	//========================================================
+	// ===============================================================
+	// [ 1 ] ---- Basic Vue Component Starter ---- *TAKEN FROM PROJECT
+	// ===============================================================
 	"basic template for vue component": {
 		"prefix": "vue-comp-raw",
 		"body": [
@@ -14,7 +16,9 @@
 		],
 		"description": "basic template for vue component"
 	},
-	//========================================================
+	// ===================================================================
+	// [ 2 ] ---- Vue Component with Props ---- *TAKEN FROM GITHUB COPILOT
+	// ===================================================================
 	"basic template for vue component with props": {
 		"prefix": "vue-comp-raw-props",
 		"body": [
@@ -41,7 +45,9 @@
 		],
 		"description": "basic template for vue component with props"
 	},
-	//========================================================
+	// =====================================================================================
+	// [ 3 ] ---- Vue Component Starter with props and emits ---- *TAKEN FROM GITHUB COPILOT
+	// =====================================================================================
 	"basic template for vue component with props and emits": {
 		"prefix": "vue-comp-raw-props-emits",
 		"body": [
@@ -73,7 +79,9 @@
 		],
 		"description": "basic template for vue component with props and emits"
 	},
-	//========================================================
+	// ==================================================================
+	// [ 4 ] ---- V-If ( Conditional Rendering ) ---- *TAKEN FROM PROJECT
+	// ==================================================================
 	"conditional rendering": {
 		"prefix": "vue-if",
 		"body": [
@@ -84,7 +92,9 @@
 		],
 		"description": "conditional rendering"
 	},
-	//========================================================
+	// =========================================================
+	// [ 5 ] ---- Vue-If-Else-If ---- *TAKEN FROM GITHUB COPILOT
+	// =========================================================
 	"conditional rendering with v-else-if": {
 		"prefix": "vue-if-else-if",
 		"body": [
@@ -96,7 +106,9 @@
 		],
 		"description": "conditional rendering with v-else-if"
 	},
-	//========================================================
+	// =======================================================================================
+	// [ 6 ] ---- V-Show ( Conditional rendering with V-Show ) ---- *TAKEN FROM GITHUB COPILOT
+	// =======================================================================================
 	"conditional rendering with v-show": {
 		"prefix": "vue-show",
 		"body": [
@@ -108,7 +120,9 @@
 		],
 		"description": "conditional rendering with v-show"
 	},
-	//========================================================
+	// =============================================================
+	// [ 6 ] ---- V-for ( for loop ) ---- *TAKEN FROM GITHUB COPILOT
+	// =============================================================
 	"for loop in vue": {
 		"prefix": "vue-for",
 		"body": [
@@ -118,7 +132,9 @@
 		],
 		"description": "for loop in vue"
 	},
-	//========================================================
+	// =========================================================
+	// [ 7 ] ---- Vue Component Starter ---- *TAKEN FROM PROJECT
+	// =========================================================
 	"vue component starter template": {
 		"prefix": "vue-comp-starter",
 		"body": [
@@ -141,6 +157,5 @@
 			"</style>"
 		],
 		"description": "vue component starter template"
-	},
-	//========================================================
+	}
 }
