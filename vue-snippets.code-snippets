@@ -92,8 +92,20 @@
 		],
 		"description": "conditional rendering"
 	},
+	// ===============================================
+	// [ 5 ] ---- Vue-Else-If ---- *TAKEN FROM PROJECT
+	// ===============================================
+	"Vue else if": {
+		"prefix": "vue-else-if",
+		"body": [
+			"<div v-else-if=\"${1:slice.component == 'ContentPairsRepeater'}\">",
+			"  ${1:<imgSlider :sliderCont=\"slice.bricks\" />}",
+			"</div>"
+		],
+		"description": "Vue else if"
+	},
 	// =========================================================
-	// [ 5 ] ---- Vue-If-Else-If ---- *TAKEN FROM GITHUB COPILOT
+	// [ 6 ] ---- Vue-If-Else-If ---- *TAKEN FROM GITHUB COPILOT
 	// =========================================================
 	"conditional rendering with v-else-if": {
 		"prefix": "vue-if-else-if",
@@ -107,7 +119,7 @@
 		"description": "conditional rendering with v-else-if"
 	},
 	// =======================================================================================
-	// [ 6 ] ---- V-Show ( Conditional rendering with V-Show ) ---- *TAKEN FROM GITHUB COPILOT
+	// [ 7 ] ---- V-Show ( Conditional rendering with V-Show ) ---- *TAKEN FROM GITHUB COPILOT
 	// =======================================================================================
 	"conditional rendering with v-show": {
 		"prefix": "vue-show",
@@ -121,7 +133,7 @@
 		"description": "conditional rendering with v-show"
 	},
 	// =============================================================
-	// [ 6 ] ---- V-for ( for loop ) ---- *TAKEN FROM GITHUB COPILOT
+	// [ 8 ] ---- V-for ( for loop ) ---- *TAKEN FROM GITHUB COPILOT
 	// =============================================================
 	"for loop in vue": {
 		"prefix": "vue-for",
@@ -133,7 +145,7 @@
 		"description": "for loop in vue"
 	},
 	// =========================================================
-	// [ 7 ] ---- Vue Component Starter ---- *TAKEN FROM PROJECT
+	// [ 9 ] ---- Vue Component Starter ---- *TAKEN FROM PROJECT
 	// =========================================================
 	"vue component starter template": {
 		"prefix": "vue-comp-starter",

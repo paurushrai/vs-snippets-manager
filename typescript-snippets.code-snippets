@@ -18,5 +18,89 @@
 			"console.log(\"${1:Hello world!}\");"
 		],
 		"description": "console.log()"
+	},
+	// =======================================================================
+	// [ 3 ] ---- Consume API without key using fetch ---- *TAKEN FROM PROJECT 
+	// =======================================================================
+	"Consume api (without key) with fetch ": {
+		"prefix": "ts-consume-api",
+		"body": [
+			"export default {",
+			"  data() {",
+			"    return {",
+			"      items: []",
+			"    };",
+			"    console.log(items);",
+			"  },",
+			"  methods: {",
+			"    fetchItems() {",
+			"      fetch(\"${1:https://cms-buychain-pb01.up.railway.app/items/home/340b5764-07a3-4c59-9e56-b137275dba7d?access_token=2FfEVIDkZ9J0Iq_JycdfwQ_3UIQ-Ylga&fields=grab_a_slice.nosql_datastore_id.*}\")",
+			"        .then((response) => response.json())",
+			"        .then((data) => (this.items = data));",
+			"      console.log(this);",
+			"    }",
+			"  },",
+			"  mounted() {",
+			"    this.fetchItems();",
+			"  }",
+			"};"
+		],
+		"description": "Consume api (without key) with fetch "
+	},
+	// ====================================================================
+	// [ 4 ] ---- Consume API with key using fetch ---- *TAKEN FROM PROJECT 
+	// ====================================================================
+	"Consume API with key using fetch": {
+		"prefix": "ts-consume-api-key",
+		"body": [
+			"export default {",
+			"  data() {",
+			"    return {",
+			"      items: []",
+			"    };",
+			"  },",
+			"  methods: {",
+			"    fetchItems() {",
+			"      const options = {",
+			"        method: 'GET',",
+			"        headers: {",
+			"          'Authorization': 'Bearer ${1:xUu7uNUFtkVRl3uwpeMvZngHUvf1MOT4}',",
+			"          'Host': '${2:https://3ytvvyi4.directus.app/}'",
+			"        }",
+			"      };",
+			"",
+			"      fetch('${3:https://3ytvvyi4.directus.app/items/articles/10?fields[]=translations.body}', options)",
+			"        .then(response => response.json())",
+			"        .then((data) => (this.items = data));",
+			"      console.log(this);",
+			"    }",
+			"  },",
+			"  mounted() {",
+			"    this.fetchItems();",
+			"  }",
+			"};",
+			"console.log(this);"
+		],
+		"description": "Consume API with key using fetch"
+	},
+	// ===============================================
+	// [ 5 ] ---- Stringify JSON Object ---- 
+	// ===============================================
+	"Stringify JSON Object": {
+		"prefix": "ts-stringify",
+		"body": [
+			"JSON.stringify(${1:items})"
+		],
+		"description": "Stringify"
+	},
+	// ===============================================
+	// [ 6 ] ---- Parse JSON Object ---- 
+	// ===============================================
+	"Parse JSON Object": {
+		"prefix": "ts-parse",
+		"body": [
+			"JSON.parse(${1:items})"
+		],
+		"description": "Parse JSON Object"
 	}
 }
