@@ -96,5 +96,19 @@
 			"      },"
 		],
 		"description": "Directory Alias"
+	},
+	// ====================================================
+	// [ 7 ] ---- MDX Page Starter ---- *TAKEN FROM PROJECT
+	// ====================================================
+	"Page starter mdx": {
+		"prefix": "astro-mdx-page-starter",
+		"body": [
+			"---",
+			"layout: \"${1:/src/layouts/LanderDefault.astro}\"",
+			"title: \"${2:Home}\"",
+			"description: \"${3:We help companies of all sizes and industries. We're here to help you find the right solution for your business.}\"",
+			"---"
+		],
+		"description": "Page starter mdx"
 	}
 }

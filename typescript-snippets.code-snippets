@@ -102,5 +102,34 @@
 			"JSON.parse(${1:items})"
 		],
 		"description": "Parse JSON Object"
+	},
+	// ============================================================================
+	// [ 7 ] ---- Directus import statement ---- *TAKEN FROM DIRECTUS DOCUMENTATION
+	// ============================================================================
+	"directus import statement": {
+		"prefix": "ts-import-directus/sdk",
+		"body": [
+			"import { Directus } from '@directus/sdk';",
+			"",
+			"const directus = new Directus('http://directus.example.com');"
+		],
+		"description": "directus import statement"
+	},
+	// ==============================================================================
+	// [ 8 ] ---- Directus Access Public Data ---- *TAKEN FROM DIRECTUS DOCUMENTATION
+	// ==============================================================================
+	"Directus Access Public Directus Data ": {
+		"prefix": "ts-access-directus-data-public",
+		"body": [
+			"async function publicData() {",
+			"//GET DATA",
+			
+			"// We don't need to authenticate if the public role has access to some_public_collection.",
+			"const publicData = await directus.items('some_public_collection').readByQuery({ sort: ['id'] });",
+			"",
+			"console.log(publicData.data);",
+			"}"
+		],
+		"description": "Directus Access Public Directus Data Using Await"
 	}
 }
