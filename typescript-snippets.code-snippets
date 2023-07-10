@@ -132,7 +132,10 @@
 		],
 		"description": "Directus Access Public Directus Data Using Await"
 	},
-	"Directus Access Public Directus Data Using Await": {
+	// ===================================================================================
+	// [ 9 ] ---- Directus Access Data Using Axios ---- *TAKEN FROM DIRECTUS DOCUMENTATION
+	// ===================================================================================
+	"Directus Access Directus Data Using Await": {
 		"prefix": "ts-consume-directus-data-await",
 		"body": [
 			"async function start() {",
@@ -173,6 +176,6 @@
 			"",
 			"start();"
 		],
-		"description": "Directus Access Public Directus Data Using Await"
+		"description": "Directus Access Directus Data Using Await"
 	}
 }
