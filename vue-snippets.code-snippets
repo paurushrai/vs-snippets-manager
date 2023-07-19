@@ -6,12 +6,15 @@
 		"prefix": "vue-comp-raw",
 		"body": [
 			"<script setup>",
+			"  ${3:}",
 			"</script>",
 			"",
 			"<template>",
+			"  ${1:}",
 			"</template>",
 			"",
 			"<style scoped>",
+			"  ${2:}",
 			"</style>"
 		],
 		"description": "basic template for vue component"
@@ -79,15 +82,15 @@
 		],
 		"description": "basic template for vue component with props and emits"
 	},
-	// ==================================================================
-	// [ 4 ] ---- V-If ( Conditional Rendering ) ---- *TAKEN FROM PROJECT
-	// ==================================================================
+	// ==================================================================================
+	// [ 4 ] ---- V-If ( Conditional Rendering ) ---- *TAKEN FROM GITHUB COPILOT + edited
+	// ==================================================================================
 	"conditional rendering": {
 		"prefix": "vue-if",
 		"body": [
-			"<div id=\"app\">",
-			"  <p v-if=\"showMessage\">This is visible</p>",
-			"  <p v-else>This is hidden</p>",
+			"<div id=\"${1:app}\" class=\"${2:class-name}\">",
+			"  <p v-if=\"${3:condition}\">${4:This is visible}</p>",
+			"  <p v-else>${4:This is hidden}</p>",
 			"</div>"
 		],
 		"description": "conditional rendering"
@@ -110,9 +113,9 @@
 	"conditional rendering with v-else-if": {
 		"prefix": "vue-if-else-if",
 		"body": [
-			"<div id=\"app\">",
-			"  <p v-if=\"showMessage\">This is visible</p>",
-			"  <p v-else-if=\"showMessage2\">This is also visible</p>",
+			"<div id=\"${1:app}\" class=\"${2:class-name}\">",
+			"  <p v-if=\"${3:condition}\">${4:This is visible}</p>",
+			"  <p v-else-if=\"${5:condition}\">$This is also visible</p>",
 			"  <p v-else>This is hidden</p>",
 			"</div>"
 		],
@@ -138,8 +141,8 @@
 	"for loop in vue": {
 		"prefix": "vue-for",
 		"body": [
-			"<li v-for=\"(item, index) in items\" key=\"index\">",
-			" {item}",
+			"<li v-for=\"(${1:item}, index) in ${2:items}\" key=\"index\">",
+			" ${3:{item}}",
 			"</li>"
 		],
 		"description": "for loop in vue"
@@ -158,7 +161,7 @@
 			"  <div class=\"inner-container\">",
 			"    <div class=\"content\">",
 			"      <div class=\"content-block\">",
-			"      ",
+			"        ${1:}",
 			"      </div>",
 			"    </div>",
 			"  </div>",

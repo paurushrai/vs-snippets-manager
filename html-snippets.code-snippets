@@ -238,5 +238,20 @@
 			"<img src=\"${1:example}\" alt=\"${2:example}\" width=\"${3:example}\" height=\"${4:example}\" title=\"${5:example}\" class=\"${6:example}\""
 		],
 		"description": "image tag with attributes"
+	},
+	// ===================================
+	// ---- [ 16 ] Two Content Blocks ----
+	// ===================================
+	"Two Content Blocks": {
+		"prefix": "html-2blocks",
+		"body": [
+			"<div class=\"block-1\">",
+			"  ${1:}",
+			"</div>",
+			"<div class=\"block-2\">",
+			"  ${2:}",
+			"</div>"
+		],
+		"description": "Two Content Blocks"
 	}
 }
