@@ -253,5 +253,15 @@
 			"</div>"
 		],
 		"description": "Two Content Blocks"
+	},
+	// ==============================
+	// ---- [ 17 ] Link to Email ----
+	// ==============================
+	"Email Link": {
+		"prefix": "html-email-link",
+		"body": [
+			"<a href=\"mailto:paurushrai99@gmail.com\">Email</a>"
+		],
+		"description": "Email Link"
 	}
 }
