@@ -13,7 +13,7 @@
 			"  <div class=\"inner-container\">",
 			"    <div class=\"content\">",
 			"      <div class=\"content-block\">",
-			"        {1:}",
+			"        ${1:}",
 			"      </div>",
 			"    </div>",
 			"  </div>",
@@ -121,7 +121,7 @@
 			"${1:Script here}",
 			"---",
 			"",
-			"${2:Html & CSS here}"
+			"${2:}"
 		],
 		"description": "Astro Component Starter"
 	}
