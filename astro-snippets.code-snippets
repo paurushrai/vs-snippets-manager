@@ -110,5 +110,19 @@
 			"---"
 		],
 		"description": "Page starter mdx"
+	},
+	// =======================================
+	// [ 8 ] ---- Astro Component Starter ----
+	// =======================================
+	"Astro Component Starter": {
+		"prefix": "astro-comp-sarter-raw",
+		"body": [
+			"---",
+			"${1:Script here}",
+			"---",
+			"",
+			"${2:Html & CSS here}"
+		],
+		"description": "Astro Component Starter"
 	}
 }

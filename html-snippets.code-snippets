@@ -9,7 +9,7 @@
 			"  <div class=\"inner-container\">",
 			"    <div class=\"content\">",
 			"      <div class=\"content-block\">",
-			"      ",
+			"        ${1:Start here}",
 			"      </div>",
 			"    </div>",
 			"  </div>",
