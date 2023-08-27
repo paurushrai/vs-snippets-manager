@@ -23,7 +23,7 @@
 	// [ 2 ] ---- Vue Component with Props ---- *TAKEN FROM GITHUB COPILOT
 	// ===================================================================
 	"basic template for vue component with props": {
-		"prefix": "vue-comp-raw-props",
+		"prefix": "vue-comp-props",
 		"body": [
 			"import { defineProps } from 'vue'",
 			"",
@@ -32,10 +32,6 @@
 			"    type: String,",
 			"    required: true",
 			"  },",
-			"  prop2: {",
-			"    type: Number,",
-			"    default: 0",
-			"  }",
 			"})"
 		],
 		"description": "basic template for vue component with props"
@@ -44,9 +40,8 @@
 	// [ 3 ] ---- Vue Component Starter with props and emits ---- *TAKEN FROM GITHUB COPILOT
 	// =====================================================================================
 	"basic template for vue component with props and emits": {
-		"prefix": "vue-comp-raw-props-emits",
+		"prefix": "vue-comp-props-emits",
 		"body": [
-			"<script setup>",
 			"import { defineProps, defineEmits } from 'vue'",
 			"",
 			"const props = defineProps({",
@@ -63,14 +58,7 @@
 			"const emits = defineEmits([",
 			"  'event1',",
 			"  'event2'",
-			"])",
-			"</script>",
-			"",
-			"<template>",
-			"</template>",
-			"",
-			"<style scoped>",
-			"</style>"
+			"])"
 		],
 		"description": "basic template for vue component with props and emits"
 	},
