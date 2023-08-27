@@ -5,7 +5,7 @@
 	"basic template for vue component": {
 		"prefix": "vue-comp-raw",
 		"body": [
-			"<script setup>",
+			"<scrip setup>",
 			"  ${3:}",
 			"</script>",
 			"",
@@ -25,7 +25,6 @@
 	"basic template for vue component with props": {
 		"prefix": "vue-comp-raw-props",
 		"body": [
-			"<script setup>",
 			"import { defineProps } from 'vue'",
 			"",
 			"const props = defineProps({",
@@ -37,14 +36,7 @@
 			"    type: Number,",
 			"    default: 0",
 			"  }",
-			"})",
-			"</script>",
-			"",
-			"<template>",
-			"</template>",
-			"",
-			"<style scoped>",
-			"</style>"
+			"})"
 		],
 		"description": "basic template for vue component with props"
 	},
