@@ -5,7 +5,7 @@
 	"basic template for vue component": {
 		"prefix": "vue-comp-raw",
 		"body": [
-			"<scrip setup>",
+			"<script setup>",
 			"  ${3:}",
 			"</script>",
 			"",
