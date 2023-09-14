@@ -263,5 +263,19 @@
 			"<a href=\"mailto:paurushrai99@gmail.com\">Email</a>"
 		],
 		"description": "Email Link"
+	},
+	// ==============================
+	// ---- [ 17 ] Link to Email ----
+	// ==============================
+	"Dropdown ": {
+		"prefix": "html-dropdown",
+		"body": [
+			"<select id=\"${1:dropdown}\">",
+			"    <option value=\"${2:defaultOption}\" selected>${3:Default Option}</option><!-- Default selected option -->",
+			"    <option value=\"${4:option1}\">${5:Option1}</option>",
+			"    <option value=\"${6:option2}\">${7:Option2}</option>",
+			"</select>"
+		],
+		"description": "Dropdown "
 	}
 }
