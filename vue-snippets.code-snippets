@@ -152,5 +152,30 @@
 			"</style>"
 		],
 		"description": "vue component starter template"
-	}
+	},
+	// =========================================================
+	// [ 10 ] ------------------ Watcher -----------------------
+	// =========================================================
+	"Watcher": {
+		"prefix": "vue-watcher",
+		"body": [
+		  "watch(${1:watchVariable or fuction}, () => {",
+		  "  ${2:your code here}",
+		  "})"
+		],
+		"description": "Watcher"
+	  },
+	// =========================================================
+	// [ 10 ] ----------- Watcher & console --------------------
+	// =========================================================
+	"Watcher & console": {
+		"prefix": "vue-watcher-console",
+		"body": [
+		  "watch(${1:watchVariable or fuction}, () => {",
+		  "  \"console.log(\\\"%c${2:Message}\\\", \\\"color: ${3:red}; font-size: 24px; text-shadow: 2px 2px ${4:black};\\\", ${1:watchVariable or fuction});\"",
+		  "})"
+		],
+		"description": "Watcher & console"
+	  }
+	
 }
