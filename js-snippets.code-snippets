@@ -3,7 +3,7 @@
 	// [ 1 ] ---------- Console.log ------------------ 
 	// ===============================================
 	"Console Log": {
-		"prefix": "js-console-log",
+		"prefix": "js-log",
 		"body": [
 			"console.log(\"%c${1:Message}\", \"color: ${3:red}; font-size: 24px; text-shadow: 2px 2px ${4:black};\", ${2:Data});"
 		],
