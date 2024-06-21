@@ -159,8 +159,8 @@
   "Watcher": {
     "prefix": "vue-watcher",
     "body": [
-      "watch(${1:watchVariable or fuction}, () => {",
-      "  ${2:your code here}",
+      "watch(${1:toWatch}, () => {",
+      "  //${2:your code here}",
       "})"
     ],
     "description": "Watcher"
